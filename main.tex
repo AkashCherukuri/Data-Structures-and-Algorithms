@@ -257,9 +257,9 @@ For example, $3n^2+5n+3 = \Theta(n^2)$
 \hspace{4mm} This theorem is used to quickly find the run-times of an algorithm in terms of the Big-O notation, when the relations are in recursive format, \(T(n) = aT(\frac{n}{b}) + O(n^d)\). The formula is as follows:
 \[   T(n)\left\{
 \begin{array}{ll}
-      O(n^d) & d > log_b^a \\
-      O(n^dlogn) & d = log_b^a \\
-      O(log_b^a) & d < log_b^a \\
+      \Theta(n^d) & d > log_b^a \\
+      \Theta(n^dlogn) & d = log_b^a \\
+      \Theta(n^{log_b^a}) & d < log_b^a \\
 \end{array} 
 \right. \]
 
